@@ -2,13 +2,13 @@ import React from 'react'
 
 export const Hero = () => {
       return (
-        <section className=" h-screen mx-auto grid grid-cols-3 w-11/12">
+        <section className=" h-screen mx-auto grid grid-cols-3 w-11/12 ">
           <div className="col-span-2">
             <p className="text-xl text-gray-500 mt-5">Hi my name is</p>
-            <h1 className="text-9xl text-header text-cblue font-black mt-5">
+            <h1 className="text-9xl text-header text-cblue font-black mt-5 animate__animated animate__rubberBand">
               Jeisson VIllamarin
             </h1>
-            <p className="text-4xl text-gray-500 mt-2">
+            <p className="text-4xl text-gray-500 mt-2  animate__animated animate__pulse animate__repeat-3	3">
               I'm a self taught Developer who loves technology, based on Bogotá,
               Colombia
             </p>
