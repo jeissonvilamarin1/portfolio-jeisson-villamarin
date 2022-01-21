@@ -4,7 +4,7 @@ export const About = () => {
       return (
         <div
           id="about"
-          className="container mx-auto px-4 border rounded p-10 shadow-2xl w-11/12 mb-6 animate__animated animate__backInLeft"
+          className="container mx-auto px-4 border rounded p-10 shadow-xl w-11/12 mb-6 animate__animated animate__backInLeft"
         >
           <h1 className="font-black mx-auto pl-2 tracking-wider text-lg leading-4 text-cblue mb-6">
             About

@@ -2,12 +2,18 @@ import React from 'react'
 
 export const Portfolio = () => {
       return (
-        <div className="container mx-auto px-4 border rounded p-10 shadow-2xl w-11/12 mb-6" id='portfolio'>
+        <div
+          className="container mx-auto px-4 border rounded p-10 shadow-2xl w-11/12 mb-6"
+          id="portfolio"
+        >
           <h1 className="font-black mx-auto pl-2 tracking-wider text-lg leading-4 text-cblue mb-6">
             Portfolio
           </h1>
-          <div className="container  grid grid-cols-3  gap-4">
-            <article className="container border rounded-lg p-5">
+          <p className='px-2'>This page is built with Vite, React an Tailwind. Now let me show you some of my most recent projects</p>
+          <br/>
+
+          <div className="container  md:grid grid-cols-3  gap-4">
+            <article className="container border rounded-lg p-5 shadow-xl mb-4">
               <a
                 href="https://jeissonvilamarin1.github.io/Block-master/"
                 target="_blank"
@@ -30,7 +36,7 @@ export const Portfolio = () => {
               </h6>
             </article>
 
-            <article className="container border rounded-lg p-5">
+            <article className="container border rounded-lg p-5 shadow-xl">
               <a
                 href="https://guapjolotas-jeissonvillamarin.netlify.app/"
                 target="_blank"
@@ -60,7 +66,7 @@ export const Portfolio = () => {
               </h6>
             </article>
 
-            <article className="container border rounded-lg p-5">
+            <article className="container border rounded-lg p-5 shadow-xl">
               <a
                 href="https://agendadigital-f0067.firebaseapp.com/"
                 target="_blank"
